@@ -1,0 +1,171 @@
+/*
+    Gravity Forms SCSS Skeleton
+    Version: 1.0
+    Compatibility: Gravity Forms 2.7.2
+    GitHub: https://github.com/pgrawinkel/gf-scss-skeleton/
+*/
+
+.gform_wrapper,
+.gform_wrapper.gravity-theme {
+	.gform_heading {
+		.gform_required_legend {
+			
+		}
+	}
+	
+	.gform_validation_errors {
+		h2 {
+			.gform-icon {
+				
+			}
+		}
+	}
+	
+	form {
+		.gf_progressbar_wrapper {
+			.gf_progressbar_title {
+				
+			}
+			
+			.gf_progressbar {
+				.gf_progressbar_percentage {
+					span {
+						
+					}
+				}
+			}
+		}
+
+		.gform_body {
+			.gform_fields {
+				.gfield,
+				.gfield.gfield_error {
+					.gfield_label,
+					label,
+					legend {
+						
+						.gfield_required {
+							.gfield_required_asterisk {
+								
+							}
+						}
+						
+					}
+					
+					.ginput_container {
+						input[type="text"],
+						input[type="email"],
+						input[type="tel“],
+						textarea,
+						select {
+							&:hover {
+								
+							}
+							
+							&:focus {
+								outline: transparent;
+							}
+							
+							&::placeholder {
+								
+							}
+						}
+					}
+					
+					.gfield_description {
+						
+					}
+					
+					.gfield_validation_message {
+						
+					}
+					
+					&.gfield--type-consent {
+						.ginput_container {
+							label {
+								
+							}
+							
+							input {
+								&:checked + label {
+									
+								}
+							}
+						}
+						
+						.gfield_consent_description {
+							
+						}
+					}
+					
+					&.gfield--type-radio {
+						.ginput_container {
+							.gfield_radio {
+								.gchoice {
+									label {
+										
+									}
+									
+									input {
+										&:checked + label {
+											
+										}
+									}
+								}
+							}
+						}
+					}
+					
+					&.gfield--type-checkbox {
+						.ginput_container {
+							.gfield_checkbox {
+								.gchoice {
+									label {
+										
+									}
+									
+									input {
+										&:checked + label {
+											
+										}
+									}
+								}
+							}
+						}
+					}
+					
+				}
+			}
+		}
+		
+		.gform_footer,
+		.gform_page_footer {
+			input[type="submit"] {
+				&:hover {
+					
+				}
+				
+				&:focus {
+					outline: transparent;
+				}
+			}
+			
+			input[type="button"].gform_next_button,
+			input[type="button"].gform_previous_button {		
+				&:hover {
+					
+				}
+				
+				&:focus {
+					outline: transparent;
+				}
+			}
+		}
+	}
+}
+
+.gform_confirmation_wrapper {
+	.gform_confirmation_message {
+		
+	}
+}
