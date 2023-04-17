@@ -64,6 +64,10 @@
 							
 							&:focus {
 								outline: transparent;
+								
+								&::placeholder {
+									
+								}
 							}
 							
 							&::placeholder {
